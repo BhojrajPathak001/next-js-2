@@ -9,9 +9,9 @@ export default function MealItem({ title, slug, image, summary, creator }) {
       <header>
         <div className={classes.image}>
           <Image src={image} alt={title} fill />
-          /*fill yaha par isliye use ho rha hai kyu jab db se image aayega tou
+          {/* fill yaha par isliye use ho rha hai kyu jab db se image aayega tou
           dimension nhi pata hota build time par wo "fill" parent component ko
-          fill kar deta hai */
+          fill kar deta hai  */}
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>
